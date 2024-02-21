@@ -1,1 +1,42 @@
+@import url('reset.css');
+
+/* Alterações na paleta de cores */
+body {
+  background-color: #282a36; /* Um tom de cinza escuro */
+}
+
+h2 {
+  color: #bd93f9; /* Roxo claro */
+}
+
+/* Modificando a fonte */
+h2, p, .banner h1 {
+  font-family: 'Arial', sans-serif; /* Fonte mais comum para diferenciação */
+}
+
+/* Ajustes de espaçamento e alinhamento */
+section {
+  margin: 80px auto; /* Diminuindo o espaçamento */
+}
+
+/* Adicionando animações */
+.banner .banner-content button {
+  transition: background-color 0.3s ease; /* Suavizando a transição de cores */
+}
+
+.banner .banner-content button:hover {
+  background-color: #6272a4; /* Alterando a cor de fundo ao passar o mouse */
+}
+
+/* Alterações visuais */
+#course-content .modules-list .module {
+  border: 2px dashed #bd93f9; /* Tornando a borda tracejada e roxa */
+  box-shadow: none; /* Removendo a sombra interna */
+}
+
+/* Novos elementos visuais */
+footer {
+  background-image: linear-gradient(rgba(189, 147, 249, 0.1), rgba(189, 147, 249, 0.3));
+  border-top: 3px solid #bd93f9; /* Tornando a borda superior mais espessa e roxa */
+}
 
